@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>VoIP Test</title>
+<link rel="stylesheet" href="styles.css">
+<script src="lib/matrix.js"></script>
+<script src="browserTest.js"></script>
+</head>
+<body style="text-align: center;" background="http://stockarch.com/files/13/08/vertical_wood_planks.jpg">
+    <div id="smartDoorbell" style="margin: auto; background-color: lightgrey; width: 800px; height: 900px;">
+        <div id="videoBackground" style="text-align: center;">
+            <div id="videoContainer" style="width: 640; height: 360; margin: auto;">
+                <video id="remote" style="background-color: black; width: 640; height: 360;"></video>
+            </div>
+        </div>
+        <button id="call">Place Call</button>
+        <div id="lockIndicator" style="width:640px; height:100px; margin: auto; margin-top: 100px; background-color: red;"></div>
+        <div id="videoBackground">
+            <div id="videoContainer" style="display: none;">
+                <video id="local"></video>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
